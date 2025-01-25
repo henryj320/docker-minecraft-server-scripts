@@ -22,6 +22,7 @@ else
 
 		# Copy the log file over to the shared area.
 		cp "$log_path" "$log_file_destination"
+		chown henry:henry "$log_file_destination"
     fi
 fi
 
